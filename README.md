@@ -1,2 +1,4 @@
 # numericalMethods
-This repository is created to share the source codes of the numerical methods course with students. 
+This repository shares some pieces of the source codes developed in the numerical methods course. 
+This is a course at Amirkabir University of Technology for BSc. students of chemical engineering .
+For more info on this course visit www.cemf.ir.
