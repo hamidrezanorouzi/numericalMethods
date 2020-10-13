@@ -7,7 +7,7 @@
 a = 2;
 b = 5;
 tol = 1.0e-5; %relative tolerance 
-nMax = 10; 
+nMax = 100; 
 
 fa = fx(a);
 fb = fx(b);
@@ -48,7 +48,7 @@ end
 %display results
 if( found ) 
    fprintf( 'A root has been found : %f\n', c);
-   fprintf( 'Funtion value at root : %f\n', fc);
+   fprintf( 'Function value at root : %f\n', fc);
    fprintf( 'Number of iterations  : %d\n', iter);
 else
    fprintf( 'No root was found in %d iterations\n', nMax);
