@@ -52,7 +52,7 @@ for iter=1:nMax
 end
 
 % no solution 
-error('bisection function did not converged in %d iteration', nMax)
+error('bisection did not converged in %d iteration', nMax)
 
 end
 

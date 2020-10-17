@@ -59,6 +59,6 @@ function [x2, fx2, iter, ea] = secant( fx, x0, x1, tol)
 
 
     % no solution 
-    error('bisection function did not converged in %d iteration', nMax)
+    error('secant method did not converged in %d iteration', nMax)
 
 end
