@@ -1,7 +1,7 @@
 % ---------------- Matlab function ---------------------------
 % Numerical methods course, AUT
 % website: www.cemf.ir
-% Tomas method to solve tri-diagonal set of linear equations 
+% Tomas method to solve a tri-diagonal set of linear equations 
 % DEFs:
 %inputs:
 %   a: lower diagonal elements [1:n]

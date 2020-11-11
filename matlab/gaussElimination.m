@@ -37,7 +37,7 @@ function [X, detA] = gaussElimination(A,B, tol)
         %first: partial pivoting
         pElement = abs(Aug(k,k));
         pRow = k;
-        %locate maximum elements in the rows below the pElements
+        %locate maximum element in the rows below the pElement
         for row = k+1:n
             if(abs(Aug(row,k)) > pElement)
                 pElement = abs( Aug(row,k));
