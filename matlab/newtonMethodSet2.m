@@ -43,7 +43,7 @@ function [x1, fx1, iter, ea] = newtonMethodSet2(fx, x0, tol, alpha)
         
         delta = jac\(-f);
         x1 = x0 + alpha*delta;
-        
+        x1
         ea = dot( delta, delta )/ max( max(x1), 1.0 ) ;
         if( ea  < tol)
             fx1 = fx(x1);           

@@ -1,2 +1,5 @@
 # ignore this file in the repository 
 matlab/fx.m
+matlab/f.m
+python/test.py
+python/__pycache__
