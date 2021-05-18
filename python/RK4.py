@@ -6,7 +6,7 @@ import numpy as np
 def RK4(dydt, tspan, y0, n):
 
     """
-    fourth order rk method to solve an ivp ODE
+    fourth order rk method to solve a set of ivp ODEs
     
     dy1/dt = f(t, y1, ..., yn)
     dy2/dt = f2(t, y1, ..., yn)
