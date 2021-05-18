@@ -6,7 +6,7 @@ import numpy as np
 def RK2(dydt, tspan, y0, n):
 
     """
-    Second order rk method to solve an ivp ODE
+    Second order rk method to solve a set ivp ODEs
     
     dy1/dt = f(t, y1, ..., yn)
     dy2/dt = f2(t, y1, ..., yn)
