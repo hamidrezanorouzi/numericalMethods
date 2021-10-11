@@ -35,9 +35,9 @@ function [t,y] = rk4(dydt, tspan, y0, n, varargin)
     for i = 1:n %implement rk method
         t(i+1) = t(i) + h;
         k1 = h * dydt( t(i), y(:,i), varargin{:});
-        k2 = h * dydt( t(i+1)+0.5*h, y(:,i)+0.5*k1 , varargin{:});
-        k3 = h * dydt( t(i+1)+0.5*h, y(:,i)+0.5*k2 , varargin{:});
-        k4 = h * dydt( t(i+1)+ h, y(:,i)+ k3 , varargin{:});
+        k2 = h * dydt( t(i)+0.5*h, y(:,i)+0.5*k1 , varargin{:});
+        k3 = h * dydt( t(i)+0.5*h, y(:,i)+0.5*k2 , varargin{:});
+        k4 = h * dydt( t(i)+ h, y(:,i)+ k3 , varargin{:});
         y(:,i+1) = y(:,i) + (k1 + 2.0*k2 + 2.0*k3 + k4)/6.0;
     end
     
