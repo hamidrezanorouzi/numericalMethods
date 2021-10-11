@@ -35,7 +35,7 @@ function [t,y] = rk2(dydt, tspan, y0, n, varargin)
     for i = 1:n %implement rk method
         t(i+1) = t(i) + h;
         k1 = h * dydt( t(i), y(:,i), varargin{:});
-        k2 = h * dydt( t(i+1), y(:,i)+k1 , varargin{:});
+        k2 = h * dydt( t(i), y(:,i)+k1 , varargin{:});
         y(:,i+1) = y(:,i) + 0.5 * (k1+k2);
     end
     
