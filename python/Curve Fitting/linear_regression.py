@@ -29,3 +29,4 @@ def LinearRegression(X, Y):
 	r2 = (n*sum_XY - sum_X*sum_Y)**2 / ((n*sum_X2 - sum_X**2) * (n*sum_Y2 - sum_Y**2))
 
 	return a, b, r2
+
