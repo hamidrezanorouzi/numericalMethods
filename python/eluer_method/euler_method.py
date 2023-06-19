@@ -10,27 +10,29 @@ Original file is located at
 import numpy as np
 import matplotlib.pyplot as plt
 
-#به صورت تابع برای دادن این تابع به عنوان ورودی به اوبلر EXAMPLE ODE تعریف کردن یک
+
+# define a sample "ODE" as an input for euler method
 def example_ODE(t, y):
     return -y + np.sin(t)
 
-# در این قسمت اویلر را تعریف میکنیم 
+
 def euler(f, y0, t0, tf, h):
-    t = np.arange(t0, tf+h, h)
+    t = np.arange(t0, tf + h, h)
     y = np.zeros(len(t))
     y[0] = y0
-    for i in range(len(t)-1):
-        y[i+1] = y[i] + h*f(t[i], y[i])
+    for i in range(len(t) - 1):
+        y[i + 1] = y[i] + h * f(t[i], y[i])
     return t, y
 
-# تعریف مردن مقادیری اولیه برای ورودی 
+
+# initialize inputs
 y0 = 0
 t0 = 0
 tf = 10
 h = 0.1
 t, y = euler(example_ODE, y0, t0, tf, h)
 
-# پلات کردن نتایح
+# plotting results
 plt.plot(t, y, label='Euler method')
 plt.xlabel('t')
 plt.ylabel('y')
