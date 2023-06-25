@@ -12,7 +12,7 @@ def lu_decomposition(A):
     return L, U
 
 # Define the matrix
-A = np.array([[4, -2, 1], [-2, 4, -2], [1, -2, 3]])
+A = np.array([3, -0.1 ,-0.2], [0.1, 7, -0.3], [0.3, -0.2, 10]])
 
 # Perform LU decomposition
 L, U = lu_decomposition(A)
