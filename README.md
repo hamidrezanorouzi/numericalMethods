@@ -14,7 +14,7 @@ Our primary goal in this course is to equip you with essential skills in numeric
 4. **Lecture 4**: Solving a System of Linear Equations - Part 1 ([Jupyter Notebook](https://github.com/hamidrezanorouzi/numericalMethods/blob/main/Lectures/Lecture04_linear_systems_Part1.ipynb), PDF).
 5. **Lecture 5**: Solving a System of Linear Equations - Part 2 ([Jupyter Notebook](https://github.com/hamidrezanorouzi/numericalMethods/blob/main/Lectures/Lecture05_linear_systems_Part2.ipynb), PDF).
 6. **Lecture 6**: Curve Fitting ([Jupyter Notebook](https://github.com/hamidrezanorouzi/numericalMethods/blob/main/Lectures/Lecture06_curve_Fitting.ipynb), PDF).
-7. **Lecture 7**: Differentiation and Integration (Jupyter Notebook, PDF - Coming Soon).
+7. **Lecture 7**: Differentiation and Integration ([Jupyter Notebook](https://github.com/hamidrezanorouzi/numericalMethods/blob/main/Lectures/Lecture07_Numerical_Integration_Differentiation.ipynb), PDF).
 8. **Lecture 8**: Solving Initial Value Problems (ODEs) ([Jupyter Notebook](https://github.com/hamidrezanorouzi/numericalMethods/blob/main/Lectures/Lecture08_solving_ODEs.ipynb), PDF).
 9. **Lecture 9**: Solving Boundary Value Problems ([Jupyter Notebook](https://github.com/hamidrezanorouzi/numericalMethods/blob/main/Lectures/Lecture09_Solving_BVPs.ipynb), PDF).
 
